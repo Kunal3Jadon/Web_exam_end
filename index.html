@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Naukari</title>
+</head>
+<style>
+    .cont {
+        width: 70vw;
+        float: right;
+        margin-left: 40px;
+    }
+
+    .abc {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .input-group {
+        width: 30vw;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .loc {
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    .side{
+        width: 20vw;
+        margin-left: 40px;
+    }
+    .upcont{
+        display: flex;
+        float: left;
+    }
+    h4{
+        padding: 20px;
+    }
+    .filter{
+        padding: 10px;
+    }
+    .filter label{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+</style>
+
+<body>
+    <div class="abc">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Milao</a>
+            </li>
+            <li class="img"><img src="logo.png" height=35px width=40px alt=""></li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Search Naukari</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Company review</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Find Salaries</a>
+            </li>
+        </ul>
+    </div>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                <button class="loc"> 🔍 Project Designer ❌</button>
+                <button class="loc"> UI Designer ❌</button>
+            </div>
+            <div class="col">
+                <button class="loc"> 🔍Location : New Delhi</button>
+            </div>
+            <div class="col">
+                <div class="input-group">
+                    <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+                        aria-describedby="search-addon" />
+                    <button type="button" class="btn btn-outline-primary">Find Job</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jobs -->
+    <div class="upcont">
+        <div class="side">
+            <div class="card" style="width: 18rem;">
+                <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+                        aria-describedby="search-addon" />
+                <div class="card-body">
+                    <h5 class="card-title">Create Job Here</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                        labore
+                        aliquam facere enim.</p>
+                    <a href="jobdesc.html" class="btn btn-primary">Create Job</a>
+                </div>
+            </div>
+            <h4>Type of Employment</h4>
+            <div class="filter">
+                <label class="container">Full-Time Jobs
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                  </label>
+                  
+                  <label class="container">Part-time Jobs
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                  
+                  <label class="container">Internshops
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                  
+                  <label class="container">Remote-jobs
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+            </div>
+            <h4>Security Level</h4>
+            <div class="filter">
+                <label class="container">Entry Level
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                  </label>
+                  
+                  <label class="container"> Mid Level
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                  
+                  <label class="container">Student Level
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                  
+                  <label class="container">Senior Level
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+            </div>
+            <h4>Salary Range</h4>
+            <div class="filter">
+                <label class="container">10000-20000
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                  </label>
+                  
+                  <label class="container"> 20000-30000
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                  
+                  <label class="container">20000-50000
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                  
+                  <label class="container">10000-20000
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+            </div>
+            
+        </div>
+        <div class="cont">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="UI.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">UI Developer</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime expedita recusandae quas amet! Magni.</p>
+                                <a href="jobdesc.html" target="_blank" class="btn btn-primary">View Description</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="UI.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Product Developer</h5>
+                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit
+                                    vero
+                                    alias facilis deleniti.</p>
+                                <a href="jobdesc.html" target="_blank" class="btn btn-primary">View Description</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="UI.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">UI/UX Developer</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <a href="jobdesc.html" target="_blank" class="btn btn-primary">View Description</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="UI.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Product Designer</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                <a href="#" target="_blank" class="btn btn-primary">View Description</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="UI.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">UX Developer</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, distinctio ipsam cupiditate vero dolorum impedit quam dolor laboriosam suscipit consectetur corporis qui animi./p>
+                                <a href="#" target="_blank" class="btn btn-primary">View Description</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="UI.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Product Designer</h5>
+                                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex veniam aliquid eius ea.</p>
+                                <a href="#" target="_blank" class="btn btn-primary">View Description</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="UI.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">UI Designer</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas enim tempore eum consequuntur quae quod explicabo.</p>
+                                <a href="#" target="_blank" class="btn btn-primary">View Description</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="UI.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Product Developer</h5>
+                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit
+                                    vero
+                                    alias facilis deleniti.</p>
+                                <a href="#" target="_blank" class="btn btn-primary">View Description</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="UI.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">UX Developer</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui.</p>
+                                <a href="#" target="_blank" class="btn btn-primary">View Description</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
